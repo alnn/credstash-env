@@ -1,0 +1,39 @@
+{
+  "name": "credstash-env",
+  "version": "1.0.0",
+  "description": "Set environment variables from credstash",
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "lint": "eslint src --ext ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alnn/credstash-env.git"
+  },
+  "keywords": [
+    "env",
+    "credstash",
+    "KMS"
+  ],
+  "author": "a.kazmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alnn/credstash-env/issues"
+  },
+  "homepage": "https://github.com/alnn/credstash-env#readme",
+  "dependencies": {
+    "credstash": "^1.0.42",
+    "deasync": "^0.1.10"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.34",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "typescript": "^2.5.3",
+    "typescript-eslint-parser": "^8.0.0"
+  }
+}
